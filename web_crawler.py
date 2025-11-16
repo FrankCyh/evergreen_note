@@ -1,6 +1,5 @@
 import os
 import json
-import re
 import time
 from typing import (
     List,
@@ -8,9 +7,13 @@ from typing import (
     Tuple,
     Optional,
 )
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 import requests
-from bs4 import BeautifulSoup
+from note_utils import (
+    get_file_path,
+    extract_note_links,
+    get_note_name_from_file,
+)
 
 
 class NoteCrawler:
@@ -55,47 +58,6 @@ class NoteCrawler:
         # Create output directory if it doesn't exist
         os.makedirs(self.output_dir, exist_ok=True)
 
-    def _sanitize_filename(
-        self,
-        name: str,
-    ) -> str:
-        """
-        Sanitize a filename by removing invalid characters.
-
-        Args:
-            name: Original filename
-
-        Returns:
-            str: Sanitized filename safe for filesystem
-        """
-        # Remove or replace invalid filename characters
-        sanitized = re.sub(r'[<>:"/\\|?*]', '_', name)
-        # Remove leading/trailing spaces and dots
-        sanitized = sanitized.strip(' .')
-        # Limit length
-        if len(sanitized) > 200:
-            sanitized = sanitized[:200]
-        return sanitized
-
-    def _get_file_path(
-        self,
-        note_id: str,
-        note_name: str,
-    ) -> str:
-        """
-        Get the file path for a note.
-
-        Args:
-            note_id: Note ID (e.g., "z5E5QawiXCMbtNtupvxeoEX")
-            note_name: Note name (e.g., "Evergreen notes")
-
-        Returns:
-            str: File path for the note
-        """
-        sanitized_name = self._sanitize_filename(note_name)
-        filename = f"{sanitized_name}-{note_id}.html"
-        return os.path.join(self.output_dir, filename)
-
     def _is_note_downloaded(
         self,
         note_id: str,
@@ -111,86 +73,8 @@ class NoteCrawler:
         Returns:
             bool: True if file exists, False otherwise
         """
-        file_path = self._get_file_path(note_id, note_name)
+        file_path = get_file_path(self.output_dir, note_id, note_name)
         return os.path.exists(file_path)
-
-    def _extract_note_links(
-        self,
-        html_content: str,
-    ) -> List[Tuple[str, str]]:
-        """
-        Extract note links from HTML content.
-
-        Args:
-            html_content: HTML content of the page
-
-        Returns:
-            List[Tuple[str, str]]: List of (note_id, note_name) tuples
-        """
-        soup = BeautifulSoup(html_content, "html.parser")
-        note_links: List[Tuple[str, str]] = []
-
-        # Find all anchor tags with href starting with "/"
-        for link in soup.find_all("a", href=True):
-            href = link.get("href", "")
-            # Check if it's a note link (starts with / and contains alphanumeric ID)
-            if href.startswith("/") and len(href) > 1:
-                # Extract note ID from href (remove leading /)
-                note_id = href.lstrip("/")
-                # Skip if it's not a valid note ID format (should be alphanumeric)
-                if not re.match(r'^[a-zA-Z0-9_-]+$', note_id):
-                    continue
-
-                # Try to get note name from span or text content
-                note_name = ""
-                span = link.find("span")
-                if span:
-                    note_name = span.get_text(strip=True)
-                else:
-                    note_name = link.get_text(strip=True)
-
-                # If no name found, use the ID
-                if not note_name:
-                    note_name = note_id
-
-                note_links.append((note_id, note_name))
-
-        # Also try to extract from JSON script tag (more reliable)
-        script_tag = soup.find("script", id="__NEXT_DATA__")
-        if script_tag:
-            try:
-                data = json.loads(script_tag.string)
-                # Navigate through the JSON structure to find linkedNoteSlugs
-                if "props" in data:
-                    page_props = data["props"].get("pageProps", {})
-                    initial_cache = page_props.get("initialNoteCache", {})
-                    for note_key, note_data in initial_cache.items():
-                        note_info = note_data.get("data", {})
-                        linked_slugs = note_info.get("linkedNoteSlugs", [])
-                        title = note_info.get("title", note_key)
-
-                        # For each linked slug, try to find the name in the HTML
-                        for slug in linked_slugs:
-                            # Try to find the link with this slug
-                            link_tag = soup.find("a", href=f"/{slug}")
-                            if link_tag:
-                                span = link_tag.find("span")
-                                if span:
-                                    note_name = span.get_text(strip=True)
-                                else:
-                                    note_name = link_tag.get_text(strip=True)
-                                if not note_name:
-                                    note_name = slug
-                            else:
-                                note_name = slug
-
-                            # Add to note_links if not already present
-                            if (slug, note_name) not in note_links:
-                                note_links.append((slug, note_name))
-            except (json.JSONDecodeError, KeyError):
-                pass
-
-        return note_links
 
     def _download_note(
         self,
@@ -231,7 +115,7 @@ class NoteCrawler:
         Returns:
             bool: True if successful, False otherwise
         """
-        file_path = self._get_file_path(note_id, note_name)
+        file_path = get_file_path(self.output_dir, note_id, note_name)
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(html_content)
@@ -276,26 +160,6 @@ class NoteCrawler:
             print(f"Error loading checkpoint: {e}")
             return False
 
-    def _get_note_name_from_file(
-        self,
-        note_id: str,
-    ) -> Optional[str]:
-        """
-        Try to get note name from an already downloaded file.
-
-        Args:
-            note_id: Note ID
-
-        Returns:
-            Optional[str]: Note name if found, None otherwise
-        """
-        # Search for files ending with the note_id
-        for filename in os.listdir(self.output_dir):
-            if filename.endswith(f"-{note_id}.html"):
-                # Extract name from filename
-                name_part = filename[:-len(f"-{note_id}.html")]
-                return name_part
-        return None
 
     def crawl(
         self,
@@ -322,7 +186,7 @@ class NoteCrawler:
                     self.stack.append((start_note_id, start_note_name))
                 else:
                     # Try to get name from file if it exists
-                    name = self._get_note_name_from_file(start_note_id)
+                    name = get_note_name_from_file(self.output_dir, start_note_id)
                     if not name:
                         name = start_note_id
                     self.stack.append((start_note_id, name))
@@ -341,11 +205,11 @@ class NoteCrawler:
                 print(f"Already downloaded: {note_name} ({note_id})")
                 self.visited.add(note_id)
                 # Still need to process links from this note
-                file_path = self._get_file_path(note_id, note_name)
+                file_path = get_file_path(self.output_dir, note_id, note_name)
                 try:
                     with open(file_path, "r", encoding="utf-8") as f:
                         html_content = f.read()
-                    note_links = self._extract_note_links(html_content)
+                    note_links = extract_note_links(html_content, current_note_id=note_id)
                     # Add unvisited links to stack (in reverse order for DFS)
                     for link_id, link_name in reversed(note_links):
                         if link_id not in self.visited:
@@ -371,7 +235,7 @@ class NoteCrawler:
             self.visited.add(note_id)
 
             # Extract links and add to stack
-            note_links = self._extract_note_links(html_content)
+            note_links = extract_note_links(html_content, current_note_id=note_id)
             print(f"  Found {len(note_links)} links")
             # Add unvisited links to stack (in reverse order for DFS)
             for link_id, link_name in reversed(note_links):

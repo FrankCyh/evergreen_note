@@ -1,0 +1,914 @@
+{
+  "About_these_notes": {
+    "name": "About these notes",
+    "id": "About_these_notes",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=About_these_notes",
+    "referenced_ids": [
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zHTevHGZQPu8QHpRhUmtsuK",
+      "zCMhncA1iSE74MKKYQS5PBZ",
+      "zXDPrYcxUSZbF5M8vM5Y1U9",
+      "zPKTSiU725W9WQCqoVPBcxm",
+      "zKKB5ENRahwftH96H7mijiu"
+    ]
+  },
+  "z5E5QawiXCMbtNtupvxeoEX": {
+    "name": "Evergreen notes",
+    "id": "z5E5QawiXCMbtNtupvxeoEX",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX",
+    "referenced_ids": [
+      "About_these_notes",
+      "zKGjQtsTKgscAoq271ZzKqw",
+      "zAf4oNSV9qB38ncSvYEZGAb",
+      "zR6RRbCfY5rFkiimFnaJZKB",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "z8SU3r8xyZyvwRhyDdJasJ2",
+      "zXDPrYcxUSZbF5M8vM5Y1U9",
+      "zDcuS8A5uxGR8hQygsqP83A",
+      "zQvwwb95vzcHcpow3GWy5Wi",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zTDjZQbKAT9pALtsk2HfePx",
+      "zDXBGEWk7msyonQ2Ngnrf8h",
+      "zUP4GuzPF33dWkZPiu9N6V5",
+      "zCknixwETdFm1MWdWPwMcXs"
+    ]
+  },
+  "zKGjQtsTKgscAoq271ZzKqw": {
+    "name": "Most people take only transient notes",
+    "id": "zKGjQtsTKgscAoq271ZzKqw",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zNQV445UEcyLXVsRVgoVSfv",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zDfV5GX8kKScLkE8Dq1rFUk"
+    ]
+  },
+  "zNQV445UEcyLXVsRVgoVSfv": {
+    "name": "Most people use notes as a bucket for storage or scratch thoughts",
+    "id": "zNQV445UEcyLXVsRVgoVSfv",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv",
+    "referenced_ids": [
+      "About_these_notes",
+      "zFuk9QqspNYHAgvzZc33ZGH",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zKGjQtsTKgscAoq271ZzKqw",
+      "zR6RRbCfY5rFkiimFnaJZKB"
+    ]
+  },
+  "zR6RRbCfY5rFkiimFnaJZKB": {
+    "name": "Evergreen note-writing as fundamental unit of knowledge work",
+    "id": "zR6RRbCfY5rFkiimFnaJZKB",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zUGqAeGGbJAMSucBQerZ9Nt",
+      "zNQV445UEcyLXVsRVgoVSfv",
+      "zDfV5GX8kKScLkE8Dq1rFUk",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zKiPFE1KYieeAJs3cEaCtdf",
+      "zCknixwETdFm1MWdWPwMcXs",
+      "z79rMNNuLrUj6R8q1CXSpDm",
+      "zAf4oNSV9qB38ncSvYEZGAb"
+    ]
+  },
+  "zUGqAeGGbJAMSucBQerZ9Nt": {
+    "name": "Note-writing can be a virtuosic skill",
+    "id": "zUGqAeGGbJAMSucBQerZ9Nt",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt",
+    "referenced_ids": [
+      "About_these_notes",
+      "zNQV445UEcyLXVsRVgoVSfv",
+      "zDfV5GX8kKScLkE8Dq1rFUk",
+      "zR6RRbCfY5rFkiimFnaJZKB"
+    ]
+  },
+  "zDfV5GX8kKScLkE8Dq1rFUk": {
+    "name": "Note-writing practices are generally ineffective",
+    "id": "zDfV5GX8kKScLkE8Dq1rFUk",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk",
+    "referenced_ids": [
+      "About_these_notes",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zKGjQtsTKgscAoq271ZzKqw",
+      "zUhd6Hb5dk35PPpnCHvd6bV",
+      "zDV9WUPTpX5MbZb4UJEwXr1",
+      "zQeW31KRF1tk2zCPPGWc7UD",
+      "zPFYKBrsvL88opKh28UYxWv",
+      "zAf4oNSV9qB38ncSvYEZGAb",
+      "zR6RRbCfY5rFkiimFnaJZKB"
+    ]
+  },
+  "zTn3g4wTm1hbkNFUvLLjpev": {
+    "name": "Knowledge work should accrete",
+    "id": "zTn3g4wTm1hbkNFUvLLjpev",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zTn3g4wTm1hbkNFUvLLjpev",
+    "referenced_ids": [
+      "About_these_notes",
+      "zGFtGAjdHWAT5sHiGxCLCqK",
+      "zKGjQtsTKgscAoq271ZzKqw",
+      "zR6RRbCfY5rFkiimFnaJZKB",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "z7rU9uGjjFJnLe57XqxpQ3V"
+    ]
+  },
+  "zUhd6Hb5dk35PPpnCHvd6bV": {
+    "name": "Note-writing practices provide weak feedback",
+    "id": "zUhd6Hb5dk35PPpnCHvd6bV",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV",
+    "referenced_ids": [
+      "About_these_notes",
+      "zDfV5GX8kKScLkE8Dq1rFUk",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zCknixwETdFm1MWdWPwMcXs"
+    ]
+  },
+  "zCknixwETdFm1MWdWPwMcXs": {
+    "name": "Executable strategy for writing",
+    "id": "zCknixwETdFm1MWdWPwMcXs",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z79rMNNuLrUj6R8q1CXSpDm",
+      "zNqLdKMiTo9EHA9EWYGXs7b",
+      "zVyJffuisLSjaDVtBtxsmSS",
+      "zXDPrYcxUSZbF5M8vM5Y1U9",
+      "zR6RRbCfY5rFkiimFnaJZKB",
+      "z79rMNNuLrUj6R8q1CXSpDm",
+      "zR5J4ZucL8A9xTWBmDZpNJQ",
+      "zYaWNLqGvd3uLPDXkhRoWoq",
+      "zSKD44o2VTbQuQYqmjupo4B"
+    ]
+  },
+  "z79rMNNuLrUj6R8q1CXSpDm": {
+    "name": "Create speculative outlines while you write",
+    "id": "z79rMNNuLrUj6R8q1CXSpDm",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm",
+    "referenced_ids": [
+      "About_these_notes",
+      "z6H1QypHEq3vak9sV7XLdKx"
+    ]
+  },
+  "z6H1QypHEq3vak9sV7XLdKx": {
+    "name": "Use notes to avoid preconceived conclusions",
+    "id": "z6H1QypHEq3vak9sV7XLdKx",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx",
+    "referenced_ids": [
+      "About_these_notes",
+      "zNUaiGAXp21eorsER1Jm9yU"
+    ]
+  },
+  "zNUaiGAXp21eorsER1Jm9yU": {
+    "name": "Evergreen notes should be atomic",
+    "id": "zNUaiGAXp21eorsER1Jm9yU",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zDh1yhNFQNxDEre12B4zd8k"
+    ]
+  },
+  "zF8xCU4BwXwbmSyp7tmff9i": {
+    "name": "Evergreen notes should be densely linked",
+    "id": "zF8xCU4BwXwbmSyp7tmff9i",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i",
+    "referenced_ids": [
+      "About_these_notes",
+      "z8ccRLda8BqJafNxjQBpzis",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "z9Uq4yzBT1QaBU8twwyvm7P",
+      "zWbMsEFW9LD4vsoVhaDcF4u",
+      "zYaWNLqGvd3uLPDXkhRoWoq",
+      "zS27HJzP3uD366crN7PYDQU",
+      "zojJRcfGstU2Ss6JRMzd15",
+      "z8SU3r8xyZyvwRhyDdJasJ2",
+      "zL9q21MA7ygsKVfvn6FwBMq",
+      "zNqLdKMiTo9EHA9EWYGXs7b",
+      "zDGk8tvVDD1mbTgpMMB5UGh"
+    ]
+  },
+  "z8ccRLda8BqJafNxjQBpzis": {
+    "name": "Understanding requires effortful engagement",
+    "id": "z8ccRLda8BqJafNxjQBpzis",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8ccRLda8BqJafNxjQBpzis",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5h4qfsMg1t1vC9EnfiAdK1",
+      "zES5WRczfGgXptmM9tSCwvy",
+      "zWceTLNTjH3DQ7iVpy38ocq",
+      "zWy4kCZkWZFxRYjW7fi6Egw"
+    ]
+  },
+  "zWceTLNTjH3DQ7iVpy38ocq": {
+    "name": "Constructivism",
+    "id": "zWceTLNTjH3DQ7iVpy38ocq",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8ccRLda8BqJafNxjQBpzis&stackedNotes=zWceTLNTjH3DQ7iVpy38ocq",
+    "referenced_ids": [
+      "About_these_notes",
+      "zVMUXKoCtjqGZZ2FLLjpW95",
+      "zLCdZ9xcHzjks8vgoGkycSr",
+      "zLCdZ9xcHzjks8vgoGkycSr",
+      "zL7XdosCZ9qeCSSCrhcYfwY",
+      "zCyoCsqj8ZNUR7vfYKVCUu7",
+      "zBtMjFiQKuh6VEuLw1V5UK2",
+      "zUiDqjKiS3udc3wcvcFbcpc",
+      "zGUDT5KyGRkfacvBktdXj26",
+      "zGUvgDWfRvt1VDJyZavtty2",
+      "Schwartz, D. L., Lindgren, R., & Lewis, S. (2009). Constructivism in an age of non-constructivist assessments. In Constructivist instruction: Success or failure? (pp. 34\u201361). Routledge\\/Taylor & Francis Group"
+    ]
+  },
+  "z2hQEhqWkdRLL9JUwfawZZx": {
+    "name": "Evergreen notes should be concept-oriented",
+    "id": "z2hQEhqWkdRLL9JUwfawZZx",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "z8ccRLda8BqJafNxjQBpzis",
+      "zDh1yhNFQNxDEre12B4zd8k",
+      "z4EXkuLjdBrBZe7PVAGXc5a"
+    ]
+  },
+  "zDh1yhNFQNxDEre12B4zd8k": {
+    "name": "Evergreen note titles are like APIs",
+    "id": "zDh1yhNFQNxDEre12B4zd8k",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=zDh1yhNFQNxDEre12B4zd8k",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z3b7sidNrEkNaY9qfGwZjwz",
+      "z984ZZLbG4wREM6HAZAovMB",
+      "zR6RRbCfY5rFkiimFnaJZKB",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "zLhoRUyjKU665EY16u4XXJy",
+      "z63PA5ATVi8oyhyLgeGvL3p",
+      "zA1qR46oWJiAvef3zxVWki"
+    ]
+  },
+  "zLhoRUyjKU665EY16u4XXJy": {
+    "name": "Prefer note titles with complete phrases to sharpen claims",
+    "id": "zLhoRUyjKU665EY16u4XXJy",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=zDh1yhNFQNxDEre12B4zd8k&stackedNotes=zLhoRUyjKU665EY16u4XXJy",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "z2pjEUvJy7Ge6yDaBo66zEu",
+      "zNqLdKMiTo9EHA9EWYGXs7b",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "z3CX38AdFzNGcujEwctVj5X",
+      "z6eSdsLVZLGWuR7m3WQGgAY",
+      "zVyJffuisLSjaDVtBtxsmSS",
+      "z92TGMiBsnraf5KXxSTNkBJ",
+      "z492hGrHvRvJiEY9UfB4Mby",
+      "z79rMNNuLrUj6R8q1CXSpDm",
+      "zEZi3ytBhZHHweRYNAosQ1g",
+      "zTDjZQbKAT9pALtsk2HfePx",
+      "zDh1yhNFQNxDEre12B4zd8k"
+    ]
+  },
+  "zNqLdKMiTo9EHA9EWYGXs7b": {
+    "name": "Evergreen notes permit smooth incremental progress in writing (\u201cincremental writing\u201d)",
+    "id": "zNqLdKMiTo9EHA9EWYGXs7b",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=zDh1yhNFQNxDEre12B4zd8k&stackedNotes=zLhoRUyjKU665EY16u4XXJy&stackedNotes=zNqLdKMiTo9EHA9EWYGXs7b",
+    "referenced_ids": [
+      "About_these_notes",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zFuk9QqspNYHAgvzZc33ZGH",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "zWxo7SzXzdGq1cHd3TUXquw"
+    ]
+  },
+  "z63PA5ATVi8oyhyLgeGvL3p": {
+    "name": "Prefer positive note titles to promote systematic theory",
+    "id": "z63PA5ATVi8oyhyLgeGvL3p",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=zDh1yhNFQNxDEre12B4zd8k&stackedNotes=z63PA5ATVi8oyhyLgeGvL3p",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zADYGiM6rnN6iTBHqVa6kiu",
+      "z5WxoE5azJstBPkERETy5kv"
+    ]
+  },
+  "z4EXkuLjdBrBZe7PVAGXc5a": {
+    "name": "Evergreen note-writing helps insight accumulate",
+    "id": "z4EXkuLjdBrBZe7PVAGXc5a",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zVeajFC9i9mrpLhZ5ScXumn",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "zNqLdKMiTo9EHA9EWYGXs7b",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zKiPFE1KYieeAJs3cEaCtdf",
+      "zCknixwETdFm1MWdWPwMcXs",
+      "zSK4LyrCbG9zDrdCWmcovUW",
+      "zAf4oNSV9qB38ncSvYEZGAb"
+    ]
+  },
+  "zVeajFC9i9mrpLhZ5ScXumn": {
+    "name": "Leaps of insight emerge from prior thought",
+    "id": "zVeajFC9i9mrpLhZ5ScXumn",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zVeajFC9i9mrpLhZ5ScXumn",
+    "referenced_ids": [
+      "About_these_notes",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zR6RRbCfY5rFkiimFnaJZKB"
+    ]
+  },
+  "zKiPFE1KYieeAJs3cEaCtdf": {
+    "name": "Evergreen note-writing helps reading efforts accumulate",
+    "id": "zKiPFE1KYieeAJs3cEaCtdf",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf",
+    "referenced_ids": [
+      "About_these_notes",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zYaWNLqGvd3uLPDXkhRoWoq",
+      "zCknixwETdFm1MWdWPwMcXs",
+      "zR6RRbCfY5rFkiimFnaJZKB"
+    ]
+  },
+  "zB74H9CuWrosEuqve7jZyCo": {
+    "name": "Write about what you read to internalize texts deeply",
+    "id": "zB74H9CuWrosEuqve7jZyCo",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo",
+    "referenced_ids": [
+      "About_these_notes",
+      "z8ccRLda8BqJafNxjQBpzis",
+      "zRbqwbnhmVdfLtKxMCibMoX",
+      "zQm6XAB3XXrXLHzF7gahpJ2",
+      "zLdprTyt7Ca2z2LUGLtFMSs",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zKiPFE1KYieeAJs3cEaCtdf",
+      "z2Nv3jADtpYcgbCXww7nSEG",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zNhg2x8e6yHJXxf7GeBLu1R",
+      "z12PGwFx275xTmGHazNgQbn",
+      "zME6gV6mc1mQ2KDE5acyho8",
+      "zEr7kCcH6zUUroDJBwDj2n5"
+    ]
+  },
+  "zRbqwbnhmVdfLtKxMCibMoX": {
+    "name": "Writing forces sharper understanding",
+    "id": "zRbqwbnhmVdfLtKxMCibMoX",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=zRbqwbnhmVdfLtKxMCibMoX",
+    "referenced_ids": [
+      "About_these_notes",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "zL2zRTTRhWf1Lx4x9p2uCDt",
+      "zGEw4kJNMh8aK19aD2NyV6r",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zEwJDpZiu1YQoXYznxioznL",
+      "z6JLcoBBGh7uKrgTiKLcPv2",
+      "zWzVw2VM4TPjpKXnHUfLaso",
+      "zASrUgV82dsvB2ZzJ39WmTP",
+      "zEZi3ytBhZHHweRYNAosQ1g",
+      "zH7AVUkqYYK7xmoAn8PTpAV",
+      "zE92ANLEszr5pwoYatKzka8",
+      "Michael_Nielsen",
+      "z6Y1zo4evjFNUim1nHtL6Sv",
+      "Michael Nielsen"
+    ]
+  },
+  "zQm6XAB3XXrXLHzF7gahpJ2": {
+    "name": "Collecting material feels more useful than it usually is",
+    "id": "zQm6XAB3XXrXLHzF7gahpJ2",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=zQm6XAB3XXrXLHzF7gahpJ2",
+    "referenced_ids": [
+      "About_these_notes",
+      "z8ccRLda8BqJafNxjQBpzis",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zKiPFE1KYieeAJs3cEaCtdf",
+      "zUhd6Hb5dk35PPpnCHvd6bV",
+      "zVPU3jfwihojMKindkMz7Ya",
+      "z4ipbCkPaf5wwDkpgqUFgTg",
+      "zUfPA6pkJfgka8HXvQmJZrG"
+    ]
+  },
+  "zLdprTyt7Ca2z2LUGLtFMSs": {
+    "name": "Do your own thinking",
+    "id": "zLdprTyt7Ca2z2LUGLtFMSs",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=zLdprTyt7Ca2z2LUGLtFMSs",
+    "referenced_ids": [
+      "About_these_notes",
+      "zWzVw2VM4TPjpKXnHUfLaso",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "z6Y1zo4evjFNUim1nHtL6Sv",
+      "zKjQmPoyCJMSC1DkBAgejs1"
+    ]
+  },
+  "z2Nv3jADtpYcgbCXww7nSEG": {
+    "name": "Most people read ineffectively",
+    "id": "z2Nv3jADtpYcgbCXww7nSEG",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=z2Nv3jADtpYcgbCXww7nSEG",
+    "referenced_ids": [
+      "About_these_notes",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zL33c5cHy4bH7HvMcv2py9H",
+      "z59PYkSdPeznr95fco4GRQx",
+      "zKiPFE1KYieeAJs3cEaCtdf",
+      "zDfV5GX8kKScLkE8Dq1rFUk",
+      "z12PGwFx275xTmGHazNgQbn",
+      "zGyuqjqaSGWzT9ndJJVxiaw"
+    ]
+  },
+  "zNhg2x8e6yHJXxf7GeBLu1R": {
+    "name": "The best way to read is highly contextual",
+    "id": "zNhg2x8e6yHJXxf7GeBLu1R",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=zNhg2x8e6yHJXxf7GeBLu1R",
+    "referenced_ids": [
+      "About_these_notes",
+      "zGyuqjqaSGWzT9ndJJVxiaw",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zFSbY4oPcbeKpotrJVf1A8P"
+    ]
+  },
+  "zGyuqjqaSGWzT9ndJJVxiaw": {
+    "name": "Skillful reading is often non-linear",
+    "id": "zGyuqjqaSGWzT9ndJJVxiaw",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=zNhg2x8e6yHJXxf7GeBLu1R&stackedNotes=zGyuqjqaSGWzT9ndJJVxiaw",
+    "referenced_ids": [
+      "About_these_notes",
+      "zTqMd4acQkC6dmrigEhWoE",
+      "zF3idWHy3CyBA7foes3nagx",
+      "z8DRL5y5vMuXA98uro9KeZ3",
+      "zCLKyGcDyU3MR2qt6GrSb1C",
+      "z7PvB1dwdm48sLP3Q3YKhAD",
+      "zYDaEHgMh5jBEwnvSF8bE2q"
+    ]
+  },
+  "z12PGwFx275xTmGHazNgQbn": {
+    "name": "The most effective readers and thinkers I know don\u2019t take notes when reading",
+    "id": "z12PGwFx275xTmGHazNgQbn",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=z12PGwFx275xTmGHazNgQbn",
+    "referenced_ids": [
+      "About_these_notes",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zAf4oNSV9qB38ncSvYEZGAb",
+      "z51q8prEJzs5Jqa5WPThYoV",
+      "zGEw4kJNMh8aK19aD2NyV6r"
+    ]
+  },
+  "zAf4oNSV9qB38ncSvYEZGAb": {
+    "name": "\u201cBetter note-taking\u201d misses the point; what matters is \u201cbetter thinking\u201d",
+    "id": "zAf4oNSV9qB38ncSvYEZGAb",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=z12PGwFx275xTmGHazNgQbn&stackedNotes=zAf4oNSV9qB38ncSvYEZGAb",
+    "referenced_ids": [
+      "About_these_notes",
+      "zDfV5GX8kKScLkE8Dq1rFUk",
+      "zR6RRbCfY5rFkiimFnaJZKB",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zUhd6Hb5dk35PPpnCHvd6bV",
+      "z51q8prEJzs5Jqa5WPThYoV"
+    ]
+  },
+  "z51q8prEJzs5Jqa5WPThYoV": {
+    "name": "People who write extensively about note-writing rarely have a serious context of use",
+    "id": "z51q8prEJzs5Jqa5WPThYoV",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=z12PGwFx275xTmGHazNgQbn&stackedNotes=zAf4oNSV9qB38ncSvYEZGAb&stackedNotes=z51q8prEJzs5Jqa5WPThYoV",
+    "referenced_ids": [
+      "About_these_notes",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zAf4oNSV9qB38ncSvYEZGAb",
+      "z7EQ2nVGus5B1rS9CqT18g6",
+      "z2huUCj3ko99HdzFcmEDfZD",
+      "zDcuS8A5uxGR8hQygsqP83A",
+      "z12PGwFx275xTmGHazNgQbn"
+    ]
+  },
+  "zGEw4kJNMh8aK19aD2NyV6r": {
+    "name": "Many eminent thinkers need a writing surface to think",
+    "id": "zGEw4kJNMh8aK19aD2NyV6r",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zB74H9CuWrosEuqve7jZyCo&stackedNotes=z12PGwFx275xTmGHazNgQbn&stackedNotes=zGEw4kJNMh8aK19aD2NyV6r",
+    "referenced_ids": [
+      "About_these_notes",
+      "z3zo16mx2Dp3PB4J1ty1DGy"
+    ]
+  },
+  "zYaWNLqGvd3uLPDXkhRoWoq": {
+    "name": "Notes should surprise you",
+    "id": "zYaWNLqGvd3uLPDXkhRoWoq",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zKiPFE1KYieeAJs3cEaCtdf&stackedNotes=zYaWNLqGvd3uLPDXkhRoWoq",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "z2hQEhqWkdRLL9JUwfawZZx"
+    ]
+  },
+  "zSK4LyrCbG9zDrdCWmcovUW": {
+    "name": "Spaced repetition may be a helpful tool to incrementally develop inklings",
+    "id": "zSK4LyrCbG9zDrdCWmcovUW",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zUP4GuzPF33dWkZPiu9N6V5",
+      "zGKqPvetpYbvbXmPmuuvfx8",
+      "zB92WZZ5baBHKZPPbWMbYEv",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z4EXkuLjdBrBZe7PVAGXc5a"
+    ]
+  },
+  "zUP4GuzPF33dWkZPiu9N6V5": {
+    "name": "A writing inbox for transient and incomplete notes",
+    "id": "zUP4GuzPF33dWkZPiu9N6V5",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zUP4GuzPF33dWkZPiu9N6V5",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zFuk9QqspNYHAgvzZc33ZGH",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zGKqPvetpYbvbXmPmuuvfx8",
+      "zXRs9fj5BuX5FmrQzPxqWUs",
+      "zHTevHGZQPu8QHpRhUmtsuK",
+      "z2Pg1CbUyvjV4jEoqmr8Xua",
+      "z2iksmfhifvy5a16Abv5MUW"
+    ]
+  },
+  "zB92WZZ5baBHKZPPbWMbYEv": {
+    "name": "Spaced repetition systems can be used to program attention",
+    "id": "zB92WZZ5baBHKZPPbWMbYEv",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zB92WZZ5baBHKZPPbWMbYEv",
+    "referenced_ids": [
+      "About_these_notes",
+      "zSTqsQ4ATXB61k3Z43TforN",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "zPpaHZYKuBPyoDtgcsiZ9RV",
+      "z4KxfCZPkVEf2R8nayLJZBG",
+      "z9AH3dD42uGiJzR1WH1eo7n",
+      "z53zJy6y76MGuJuWW4Qvab9",
+      "z9hscgkG2TeqgUtu3vAEW3U",
+      "zHwr5v9VJGX3MzHyzz4V8wt",
+      "zAb9R6nYuTyN6PBC4rQY9aY",
+      "zSK4LyrCbG9zDrdCWmcovUW",
+      "zJ5Yzvba2729XKXivBBZ91J",
+      "zAt1K9ARQYguinoHH8cfaqQ",
+      "z8v56RCUFx6Zp6sBG6mTL95",
+      "zPtcwHaKGoLEZRzSoScYXha",
+      "zNLoqjEVe5dheMKmTTyB9E3",
+      "zWbMsEFW9LD4vsoVhaDcF4u",
+      "z2Pg1CbUyvjV4jEoqmr8Xua",
+      "zDXBGEWk7msyonQ2Ngnrf8h"
+    ]
+  },
+  "zSTqsQ4ATXB61k3Z43TforN": {
+    "name": "Spaced repetition memory systems make memory a choice",
+    "id": "zSTqsQ4ATXB61k3Z43TforN",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zB92WZZ5baBHKZPPbWMbYEv&stackedNotes=zSTqsQ4ATXB61k3Z43TforN",
+    "referenced_ids": [
+      "About_these_notes",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "z64yjxVfMvJTSAjWFpyEtnA",
+      "z4ipbCkPaf5wwDkpgqUFgTg",
+      "zPFYKBrsvL88opKh28UYxWv",
+      "zVyJffuisLSjaDVtBtxsmSS",
+      "zWVP73b92oJ4RzB2EK2WRqh",
+      "zL33c5cHy4bH7HvMcv2py9H",
+      "zKPv6qkSErdRGqyryvgS2wS"
+    ]
+  },
+  "z64yjxVfMvJTSAjWFpyEtnA": {
+    "name": "Spaced repetition memory systems are extremely efficient",
+    "id": "z64yjxVfMvJTSAjWFpyEtnA",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zB92WZZ5baBHKZPPbWMbYEv&stackedNotes=zSTqsQ4ATXB61k3Z43TforN&stackedNotes=z64yjxVfMvJTSAjWFpyEtnA",
+    "referenced_ids": [
+      "About_these_notes",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "z4KScVkQCD2XmVwvSDUbZtn",
+      "zFTNCRPoNgwrxyF5H5VdNM8"
+    ]
+  },
+  "z4KScVkQCD2XmVwvSDUbZtn": {
+    "name": "Spacing effect",
+    "id": "z4KScVkQCD2XmVwvSDUbZtn",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zB92WZZ5baBHKZPPbWMbYEv&stackedNotes=zSTqsQ4ATXB61k3Z43TforN&stackedNotes=z64yjxVfMvJTSAjWFpyEtnA&stackedNotes=z4KScVkQCD2XmVwvSDUbZtn",
+    "referenced_ids": [
+      "About_these_notes",
+      "z26AXzY1oNUMSENevADMhGV",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "zCyRxeMEg53C6mMfXYH2gxn",
+      "zCgYSHF9xQSEe71x9ML1NLB",
+      "zGXgn3UjMpmMiTtFBxAa8GQ"
+    ]
+  },
+  "z26AXzY1oNUMSENevADMhGV": {
+    "name": "Forgetting curve",
+    "id": "z26AXzY1oNUMSENevADMhGV",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zB92WZZ5baBHKZPPbWMbYEv&stackedNotes=zSTqsQ4ATXB61k3Z43TforN&stackedNotes=z64yjxVfMvJTSAjWFpyEtnA&stackedNotes=z4KScVkQCD2XmVwvSDUbZtn&stackedNotes=z26AXzY1oNUMSENevADMhGV",
+    "referenced_ids": [
+      "About_these_notes",
+      "zXUmVzxexnpvtmR6zpKBxUp",
+      "zCgYSHF9xQSEe71x9ML1NLB",
+      "zLzssGrAzNxttF37QcvbH2W"
+    ]
+  },
+  "zFTNCRPoNgwrxyF5H5VdNM8": {
+    "name": "Spaced repetition yields (what feel like) exponential returns for small increases in effort",
+    "id": "zFTNCRPoNgwrxyF5H5VdNM8",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z2hQEhqWkdRLL9JUwfawZZx&stackedNotes=z4EXkuLjdBrBZe7PVAGXc5a&stackedNotes=zSK4LyrCbG9zDrdCWmcovUW&stackedNotes=zB92WZZ5baBHKZPPbWMbYEv&stackedNotes=zSTqsQ4ATXB61k3Z43TforN&stackedNotes=z64yjxVfMvJTSAjWFpyEtnA&stackedNotes=zFTNCRPoNgwrxyF5H5VdNM8",
+    "referenced_ids": [
+      "About_these_notes",
+      "z64yjxVfMvJTSAjWFpyEtnA",
+      "z2J5dJC42v8pGDPwa5VW9Sg",
+      "zGrLCQ873eCpFvTsZoMRCbE"
+    ]
+  },
+  "z9Uq4yzBT1QaBU8twwyvm7P": {
+    "name": "Elaborative encoding",
+    "id": "z9Uq4yzBT1QaBU8twwyvm7P",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z9Uq4yzBT1QaBU8twwyvm7P",
+    "referenced_ids": [
+      "About_these_notes",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "zEK6pjc61VLLZDNYssz7W7M",
+      "zFUBZG5yY1aKJ4hpak2jWPA",
+      "z799fHyRM3qXFTLeEXUZQV7"
+    ]
+  },
+  "zS27HJzP3uD366crN7PYDQU": {
+    "name": "Prefer fine-grained associations",
+    "id": "zS27HJzP3uD366crN7PYDQU",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=zS27HJzP3uD366crN7PYDQU",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF8xCU4BwXwbmSyp7tmff9i"
+    ]
+  },
+  "zojJRcfGstU2Ss6JRMzd15": {
+    "name": "Tags are an ineffective association structure",
+    "id": "zojJRcfGstU2Ss6JRMzd15",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=zojJRcfGstU2Ss6JRMzd15",
+    "referenced_ids": [
+      "About_these_notes",
+      "z8Ubad66AWp7ZLShUmRu3vu",
+      "zS27HJzP3uD366crN7PYDQU",
+      "zRaJxQBJgbD5wgRYLoqTpa3"
+    ]
+  },
+  "z8Ubad66AWp7ZLShUmRu3vu": {
+    "name": "Prefer explicit associations to inferred associations",
+    "id": "z8Ubad66AWp7ZLShUmRu3vu",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=zojJRcfGstU2Ss6JRMzd15&stackedNotes=z8Ubad66AWp7ZLShUmRu3vu",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zLdprTyt7Ca2z2LUGLtFMSs"
+    ]
+  },
+  "zRaJxQBJgbD5wgRYLoqTpa3": {
+    "name": "Prefer labeled associations",
+    "id": "zRaJxQBJgbD5wgRYLoqTpa3",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=zojJRcfGstU2Ss6JRMzd15&stackedNotes=zRaJxQBJgbD5wgRYLoqTpa3",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF8xCU4BwXwbmSyp7tmff9i"
+    ]
+  },
+  "z8SU3r8xyZyvwRhyDdJasJ2": {
+    "name": "Prefer associative ontologies to hierarchical taxonomies",
+    "id": "z8SU3r8xyZyvwRhyDdJasJ2",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8SU3r8xyZyvwRhyDdJasJ2",
+    "referenced_ids": [
+      "About_these_notes",
+      "zR5J4ZucL8A9xTWBmDZpNJQ",
+      "zE92ANLEszr5pwoYatKzka8",
+      "zojJRcfGstU2Ss6JRMzd15",
+      "zPpqLzE6VWKxXF6BpsAfr4C"
+    ]
+  },
+  "zR5J4ZucL8A9xTWBmDZpNJQ": {
+    "name": "Let ideas and beliefs emerge organically",
+    "id": "zR5J4ZucL8A9xTWBmDZpNJQ",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8SU3r8xyZyvwRhyDdJasJ2&stackedNotes=zR5J4ZucL8A9xTWBmDZpNJQ",
+    "referenced_ids": [
+      "About_these_notes",
+      "zLdprTyt7Ca2z2LUGLtFMSs",
+      "zR6RRbCfY5rFkiimFnaJZKB",
+      "z79rMNNuLrUj6R8q1CXSpDm",
+      "zCknixwETdFm1MWdWPwMcXs",
+      "z6H1QypHEq3vak9sV7XLdKx",
+      "zVeajFC9i9mrpLhZ5ScXumn",
+      "zGbMMKcybSmwFR4jLS12iY2",
+      "z8SU3r8xyZyvwRhyDdJasJ2",
+      "zE92ANLEszr5pwoYatKzka8"
+    ]
+  },
+  "zGbMMKcybSmwFR4jLS12iY2": {
+    "name": "Brainstorming may often substitute for missing insight accretion systems",
+    "id": "zGbMMKcybSmwFR4jLS12iY2",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8SU3r8xyZyvwRhyDdJasJ2&stackedNotes=zR5J4ZucL8A9xTWBmDZpNJQ&stackedNotes=zGbMMKcybSmwFR4jLS12iY2",
+    "referenced_ids": [
+      "About_these_notes",
+      "zVeajFC9i9mrpLhZ5ScXumn",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zE92ANLEszr5pwoYatKzka8"
+    ]
+  },
+  "zE92ANLEszr5pwoYatKzka8": {
+    "name": "Evergreen notes are a safe place to develop wild ideas",
+    "id": "zE92ANLEszr5pwoYatKzka8",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8SU3r8xyZyvwRhyDdJasJ2&stackedNotes=zR5J4ZucL8A9xTWBmDZpNJQ&stackedNotes=zGbMMKcybSmwFR4jLS12iY2&stackedNotes=zE92ANLEszr5pwoYatKzka8",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "zSK4LyrCbG9zDrdCWmcovUW",
+      "z79rMNNuLrUj6R8q1CXSpDm",
+      "zYaWNLqGvd3uLPDXkhRoWoq",
+      "zTn3g4wTm1hbkNFUvLLjpev",
+      "zGbMMKcybSmwFR4jLS12iY2"
+    ]
+  },
+  "zPpqLzE6VWKxXF6BpsAfr4C": {
+    "name": "It\u2019s hard to navigate to unlinked \u201cneighbors\u201d in associative note systems",
+    "id": "zPpqLzE6VWKxXF6BpsAfr4C",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=z79rMNNuLrUj6R8q1CXSpDm&stackedNotes=z6H1QypHEq3vak9sV7XLdKx&stackedNotes=zNUaiGAXp21eorsER1Jm9yU&stackedNotes=zF8xCU4BwXwbmSyp7tmff9i&stackedNotes=z8SU3r8xyZyvwRhyDdJasJ2&stackedNotes=zPpqLzE6VWKxXF6BpsAfr4C",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "z8SU3r8xyZyvwRhyDdJasJ2",
+      "z4geAr5cERWdJPrdhU5gy3N",
+      "zojJRcfGstU2Ss6JRMzd15",
+      "z7yd2pijFR2BRL7d1mqe3d1"
+    ]
+  },
+  "zXDPrYcxUSZbF5M8vM5Y1U9": {
+    "name": "Write notes for yourself by default, disregarding audience",
+    "id": "zXDPrYcxUSZbF5M8vM5Y1U9",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=zXDPrYcxUSZbF5M8vM5Y1U9",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zCknixwETdFm1MWdWPwMcXs",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "zNqLdKMiTo9EHA9EWYGXs7b"
+    ]
+  },
+  "zSKD44o2VTbQuQYqmjupo4B": {
+    "name": "Evergreen notes lower the emotional stakes in editing manuscripts",
+    "id": "zSKD44o2VTbQuQYqmjupo4B",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=zSKD44o2VTbQuQYqmjupo4B",
+    "referenced_ids": [
+      "About_these_notes",
+      "zFuk9QqspNYHAgvzZc33ZGH",
+      "zCknixwETdFm1MWdWPwMcXs",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zUP4GuzPF33dWkZPiu9N6V5",
+      "zDGk8tvVDD1mbTgpMMB5UGh",
+      "z4xE8FBHhDo5pTvJuCBPRYC"
+    ]
+  },
+  "zDGk8tvVDD1mbTgpMMB5UGh": {
+    "name": "Release valves for non-linear thought may support improved linear output",
+    "id": "zDGk8tvVDD1mbTgpMMB5UGh",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv&stackedNotes=zR6RRbCfY5rFkiimFnaJZKB&stackedNotes=zUGqAeGGbJAMSucBQerZ9Nt&stackedNotes=zDfV5GX8kKScLkE8Dq1rFUk&stackedNotes=zUhd6Hb5dk35PPpnCHvd6bV&stackedNotes=zCknixwETdFm1MWdWPwMcXs&stackedNotes=zSKD44o2VTbQuQYqmjupo4B&stackedNotes=zDGk8tvVDD1mbTgpMMB5UGh",
+    "referenced_ids": [
+      "About_these_notes",
+      "zSzTnYqKsHgyS8ExW92gUpU",
+      "zGKtrhpZ3hS8bw8UGL8hMTP",
+      "zSKD44o2VTbQuQYqmjupo4B",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zPVYHEJdDBoMoQV5pQ4h71S",
+      "Prefer linear work products but non-linear working enviro\u0005nments"
+    ]
+  },
+  "zQvwwb95vzcHcpow3GWy5Wi": {
+    "name": "Similarities and differences between evergreen note-writing and Zettelkasten",
+    "id": "zQvwwb95vzcHcpow3GWy5Wi",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zQvwwb95vzcHcpow3GWy5Wi",
+    "referenced_ids": [
+      "About_these_notes",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zDcuS8A5uxGR8hQygsqP83A",
+      "z2hQEhqWkdRLL9JUwfawZZx",
+      "zNUaiGAXp21eorsER1Jm9yU",
+      "zF8xCU4BwXwbmSyp7tmff9i",
+      "zYaWNLqGvd3uLPDXkhRoWoq",
+      "zE92ANLEszr5pwoYatKzka8",
+      "zLdprTyt7Ca2z2LUGLtFMSs",
+      "zQ6oSpDubYrrBB1WueNbzLb",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "zUP4GuzPF33dWkZPiu9N6V5",
+      "zJ5Yzvba2729XKXivBBZ91J",
+      "zSK4LyrCbG9zDrdCWmcovUW",
+      "zHTevHGZQPu8QHpRhUmtsuK",
+      "zTDjZQbKAT9pALtsk2HfePx",
+      "zDh1yhNFQNxDEre12B4zd8k",
+      "zQtMfVrh8x4paaZv7MTp1Em",
+      "zL9q21MA7ygsKVfvn6FwBMq",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "zWWh96dE6YZYmDCoo37977X",
+      "z51q8prEJzs5Jqa5WPThYoV"
+    ]
+  },
+  "zJ5Yzvba2729XKXivBBZ91J": {
+    "name": "Spaced repetition can lower the stakes around destructive inbox-maintenance operations",
+    "id": "zJ5Yzvba2729XKXivBBZ91J",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zQvwwb95vzcHcpow3GWy5Wi&stackedNotes=zJ5Yzvba2729XKXivBBZ91J",
+    "referenced_ids": [
+      "About_these_notes",
+      "zGKqPvetpYbvbXmPmuuvfx8",
+      "z2Pg1CbUyvjV4jEoqmr8Xua",
+      "z4xE8FBHhDo5pTvJuCBPRYC",
+      "zDXBGEWk7msyonQ2Ngnrf8h",
+      "zM2KVgUySDFDqAZ7MoD3oZd",
+      "zB92WZZ5baBHKZPPbWMbYEv"
+    ]
+  },
+  "z2Pg1CbUyvjV4jEoqmr8Xua": {
+    "name": "Triage strategies for maintaining inboxes (e.g. Inbox Zero) are often too brittle",
+    "id": "z2Pg1CbUyvjV4jEoqmr8Xua",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zQvwwb95vzcHcpow3GWy5Wi&stackedNotes=zJ5Yzvba2729XKXivBBZ91J&stackedNotes=z2Pg1CbUyvjV4jEoqmr8Xua",
+    "referenced_ids": [
+      "About_these_notes",
+      "zGKqPvetpYbvbXmPmuuvfx8",
+      "z4xE8FBHhDo5pTvJuCBPRYC",
+      "zJ5Yzvba2729XKXivBBZ91J"
+    ]
+  },
+  "zM2KVgUySDFDqAZ7MoD3oZd": {
+    "name": "Spaced repetition mechanics create a sense of effortlessness",
+    "id": "zM2KVgUySDFDqAZ7MoD3oZd",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zQvwwb95vzcHcpow3GWy5Wi&stackedNotes=zJ5Yzvba2729XKXivBBZ91J&stackedNotes=zM2KVgUySDFDqAZ7MoD3oZd",
+    "referenced_ids": [
+      "About_these_notes",
+      "z2D1qPwddPktBjpNuwYFVva",
+      "zUiXjdD4w8dAAxso2GixujV",
+      "z2Pg1CbUyvjV4jEoqmr8Xua",
+      "z9hscgkG2TeqgUtu3vAEW3U",
+      "zMbLoCcRACLn2Enfuo5KjyK",
+      "zB92WZZ5baBHKZPPbWMbYEv"
+    ]
+  },
+  "zHTevHGZQPu8QHpRhUmtsuK": {
+    "name": "My morning writing practice",
+    "id": "zHTevHGZQPu8QHpRhUmtsuK",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zQvwwb95vzcHcpow3GWy5Wi&stackedNotes=zHTevHGZQPu8QHpRhUmtsuK",
+    "referenced_ids": [
+      "About_these_notes",
+      "zSve33D7x1qe5WUjojDcM9y",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "zNQV445UEcyLXVsRVgoVSfv",
+      "z4EXkuLjdBrBZe7PVAGXc5a",
+      "zUP4GuzPF33dWkZPiu9N6V5",
+      "z5E5QawiXCMbtNtupvxeoEX",
+      "z2iksmfhifvy5a16Abv5MUW",
+      "zXRs9fj5BuX5FmrQzPxqWUs",
+      "zB74H9CuWrosEuqve7jZyCo",
+      "z5E5QawiXCMbtNtupvxeoEX"
+    ]
+  },
+  "zQtMfVrh8x4paaZv7MTp1Em": {
+    "name": "Contextual backlinks",
+    "id": "zQtMfVrh8x4paaZv7MTp1Em",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=z5E5QawiXCMbtNtupvxeoEX&stackedNotes=zQvwwb95vzcHcpow3GWy5Wi&stackedNotes=zQtMfVrh8x4paaZv7MTp1Em",
+    "referenced_ids": [
+      "About_these_notes",
+      "zS27HJzP3uD366crN7PYDQU"
+    ]
+  },
+  "zCMhncA1iSE74MKKYQS5PBZ": {
+    "name": "Work with the garage door up",
+    "id": "zCMhncA1iSE74MKKYQS5PBZ",
+    "url": "https://notes.andymatuschak.org/About_these_notes?stackedNotes=zCMhncA1iSE74MKKYQS5PBZ",
+    "referenced_ids": [
+      "About_these_notes",
+      "zF9ywLHqHfN5rFuPApiyqmP",
+      "zHV89H7dqnrvNvwXHBSGog9",
+      "z4ehFvVvhxoMGtBudLpDoeN",
+      "Maggie_Appleton",
+      "2024-12-17",
+      "z4geAr5cERWdJPrdhU5gy3N",
+      "Maggie Appleton"
+    ]
+  }
+}
