@@ -1,6 +1,8 @@
 import os
+import sys
 import json
 import time
+from pathlib import Path
 from typing import (
     List,
     Dict,
@@ -9,7 +11,12 @@ from typing import (
 )
 from urllib.parse import urljoin
 import requests
-from note_utils import (
+
+# Add project root to path for imports
+_project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(_project_root / "src"))
+
+from util.note_utils import (
     get_file_path,
     extract_note_links,
     get_note_name_from_file,
@@ -262,8 +269,8 @@ def main():
     """
     # Configuration
     BASE_URL = "https://notes.andymatuschak.org"
-    OUTPUT_DIR = "webpage"
-    CHECKPOINT_FILE = "checkpoint.json"
+    OUTPUT_DIR = str(_project_root / "webpage")
+    CHECKPOINT_FILE = str(Path(__file__).parent / "checkpoint.json")
     START_NOTE_ID = "About_these_notes"
     START_NOTE_NAME = "About these notes"
     DELAY = 1.0  # Delay between requests in seconds

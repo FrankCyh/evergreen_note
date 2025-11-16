@@ -1,5 +1,7 @@
 import os
+import sys
 import json
+from pathlib import Path
 from typing import (
     List,
     Dict,
@@ -7,7 +9,12 @@ from typing import (
     Optional,
     Union,
 )
-from note_utils import (
+
+# Add project root to path for imports
+_project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(_project_root / "src"))
+
+from util.note_utils import (
     extract_note_links,
     read_note_from_file,
     find_note_file,
@@ -394,8 +401,8 @@ def main():
     """
     # Configuration
     BASE_URL = "https://notes.andymatuschak.org/About_these_notes"
-    WEBPAGE_DIR = "webpage"
-    OUTPUT_FILE = "filtered_notes.json"
+    WEBPAGE_DIR = str(_project_root / "webpage")
+    OUTPUT_FILE = str(Path(__file__).parent / "filtered_notes.json")
     START_NOTE_ID = "About_these_notes"
     START_NOTE_NAME = "About these notes"
     
