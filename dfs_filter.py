@@ -112,8 +112,8 @@ class DFSFilter:
     def _ask_user_to_keep(
         self,
         note_id: str,
-        note_name: str,
         stacked_name: str,
+        stacked_url: str,
     ) -> str:
         """
         Ask user if they want to keep this note.
@@ -126,8 +126,9 @@ class DFSFilter:
         Returns:
             str: "Yes" if user wants to keep, "No" if skip, "Skip_all" if skip all at this level
         """
-        prompt = f"{note_name} ({note_id}): "
-        user_input = input(prompt).strip()
+        print(f"\n🔗: {stacked_url}")
+        print(f"\n{stacked_name}")
+        user_input = input("Keep? (y/n/N)").strip()
         
         if user_input == "":
             return "Yes"
@@ -178,10 +179,8 @@ class DFSFilter:
                     note_id,
                     note_name,
                 )
-                # Print the stacked name before asking user
-                print(f"\n{stacked_name}")
                 # Still ask user even if file not found
-                user_choice = self._ask_user_to_keep(note_id, note_name, note_name)
+                user_choice = self._ask_user_to_keep(note_id, stacked_name, stacked_url)
                 if user_choice == "Yes":
                     self.filtered_notes[note_id] = {
                         "name": note_name,
@@ -206,11 +205,8 @@ class DFSFilter:
             note_name,
         )
         
-        # Print the stacked name before asking user
-        print(f"\n{stacked_name}")
-        
         # Ask user if they want to keep this note
-        user_choice = self._ask_user_to_keep(note_id, note_name, note_name)
+        user_choice = self._ask_user_to_keep(note_id, stacked_name, stacked_url)
         
         # Extract referenced notes (filter out self-references)
         referenced_notes = extract_note_links(html_content, current_note_id=note_id)
