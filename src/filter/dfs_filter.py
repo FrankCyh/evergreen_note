@@ -46,7 +46,6 @@ def build_stacked_url(
 def build_stacked_name(
     webpage_dir: str,
     note_path: List[str],
-    current_note_id: str,
     current_note_name: str,
 ) -> str:
     """
@@ -55,7 +54,6 @@ def build_stacked_name(
     Args:
         webpage_dir: Directory containing downloaded HTML files
         note_path: List of note IDs in the path
-        current_note_id: Current note ID
         current_note_name: Current note name
 
     Returns:
@@ -192,7 +190,7 @@ class DFSFilter:
                     self.filtered_notes[note_id] = {
                         "name": note_name,
                         "id": note_id,
-                        "url": stacked_url,
+                        "url": f"https://notes.andymatuschak.org/{note_id}",
                         "referenced_ids": [],
                     }
                     print(f"✓ Kept {len(self.filtered_notes)}: {note_name} ({note_id}) - no file found, no references")
@@ -405,7 +403,7 @@ def main():
     OUTPUT_FILE = str(Path(__file__).parent / "filtered_notes.json")
     START_NOTE_ID = "About_these_notes"
     START_NOTE_NAME = "About these notes"
-    
+
     # Create filter
     filter_tool = DFSFilter(
         base_url=BASE_URL,

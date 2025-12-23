@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS pages (
     id VARCHAR(255) PRIMARY KEY,
     title TEXT NOT NULL,
     file_location TEXT NOT NULL,
+    notion_id UUID,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

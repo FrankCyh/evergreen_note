@@ -1,8 +1,7 @@
 """
 Script to insert page references data into PostgreSQL database.
 
-Reads from page_references.json and inserts into the PostgreSQL database
-with bidirectional relationship tracking.
+Reads from page_references.json and inserts into the PostgreSQL database with bidirectional relationship tracking.
 """
 
 import json
@@ -78,7 +77,7 @@ def insert_pages(
     page_data: Dict[str, Dict[str, any]]
 ) -> None:
     """
-    Insert pages into the database.
+    Insert pages in `page_data` into the `pages` table.
 
     Args:
         conn: Database connection
@@ -92,13 +91,14 @@ def insert_pages(
         pages_to_insert.append((
             page_id,
             page_info.get('title', ''),
-            page_info.get('filename', '')
+            page_info.get('filename', ''),
+            None  # notion_id, initialized to NULL, updated when page is created in Notion
         ))
     
     # Insert pages using execute_batch for efficiency
     insert_query = """
-        INSERT INTO pages (id, title, file_location)
-        VALUES (%s, %s, %s)
+        INSERT INTO pages (id, title, file_location, notion_id)
+        VALUES (%s, %s, %s, %s)
         ON CONFLICT (id) DO UPDATE SET
             title = EXCLUDED.title,
             file_location = EXCLUDED.file_location,
@@ -129,12 +129,10 @@ def build_reference_pairs(
     for page_id, page_info in page_data.items():
         references = page_info.get('references', [])
         for child_id in references:
-            # Only add if child page exists in our data
-            if child_id in page_data:
-                reference_pairs.append((page_id, child_id))
-            else:
-                # Still add it, but note that the child might not exist
-                reference_pairs.append((page_id, child_id))
+            # Add a (parent_id, child_id) reference pair for every reference.
+            #* If the `child_id` exists in our filtered `page_data`, it's a reference to a known page. If not, it's a reference to an page that we currently don't track, but would probably track in the future
+            #* In other words, we track all relations to pages in `page_data`, even if the related page is not in `page_data`.
+            reference_pairs.append((page_id, child_id))
     
     return reference_pairs
 
