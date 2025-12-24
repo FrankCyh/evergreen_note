@@ -12,6 +12,7 @@ This project is designed to work with evergreen note systems (like Andy Matuscha
 - **Reference Extraction**: Extract and map relationships between notes from HTML files
 - **Note Filtering**: Interactive DFS-based filtering to select relevant notes
 - **Database Storage**: Store notes and their relationships in PostgreSQL with bidirectional relationship tracking
+- **Notion Integration**: Create Notion pages from filtered notes, upload HTML content, and maintain bidirectional links
 - **Query Tools**: SQL views and queries for analyzing note connections
 
 ## Project Structure
@@ -32,6 +33,8 @@ evergreen_note/
 │   │   ├── insert_to_database.py
 │   │   ├── create_database.sql
 │   │   └── DATABASE_SETUP.md
+│   ├── notion/           # Notion integration tools
+│   │   └── notion.py
 │   └── util/             # Shared utilities
 │       └── note_utils.py
 ├── webpage/              # Downloaded HTML files
@@ -104,42 +107,78 @@ python src/db/insert_to_database.py
 
 This will:
 - Read `src/ref/page_references.json`
-- Create/update pages in the database
+- Create all pages in the database
 - Store bidirectional relationships
 - Provide statistics about the database
 
+### 5. Upload to Notion
+
+The Notion integration allows you to create Notion pages from your filtered notes and maintain consistency with the database.
+
+#### First-Time Setup: Create All Pages
+
+For the first time, create all Notion pages from filtered notes:
+
+```python
+# Load filtered notes
+filtered_notes = load_filtered_notes("src/filter/filtered_notes.json")
+
+# Connect to database
+conn = get_db_connection()
+
+# Create all Notion pages and update database with notion_id
+asyncio.run(create_all_notion_pages_and_update_db(filtered_notes, conn))
+
+conn.close()
+```
+
+This will:
+- Create empty Notion pages for all filtered notes
+- Update the `pages` table with `notion_id` for each created page
+- Skip pages that already have a `notion_id`
+
+#### First-Time Setup: Upload All Content
+
+After creating all pages, upload HTML content to Notion:
+
+```python
+asyncio.run(upload_all_webpage_to_notion())
+```
+
+This will:
+- Read HTML files for all pages with `notion_id`
+- Parse HTML content into Notion blocks
+- Convert href links to `notes.andymatuschak.org` into MentionPage references (if target page exists in Notion)
+- Upload content to Notion pages
+
+#### Incremental Updates: Upload New Pages
+
+For adding new pages incrementally:
+
+```python
+# Upload a single new page
+page_id = "z5E5QawiXCMbtNtupvxeoEX"
+asyncio.run(upload_new_webpage_to_notion(page_id))
+```
+
+This function:
+1. Validates that the page exists in the database and doesn't have a `notion_id`
+2. Creates a new Notion page
+3. Updates `notion_id` in the database (all other fields already exist in the database from step 4)
+4. Uploads HTML content with href→MentionPage conversion
+5. Updates the "📖 Related" property based on `page_references` table
+6. Updates parent pages to replace href links with MentionPage references
+
 ## Database Setup
 
-### Prerequisites
-
-- PostgreSQL installed and running
-- Python dependencies installed
-
-### Step 1: Create Database
-
-```bash
-createdb -U postgres evergreen_notes
-```
-
-### Step 2: Create Schema
-
-```bash
-psql -U postgres -d evergreen_notes -f src/db/create_database.sql
-```
-
-### Step 3: Insert Data
-
-```bash
-python src/db/insert_to_database.py
-```
-
-For detailed database setup instructions, see [src/db/DATABASE_SETUP.md](src/db/DATABASE_SETUP.md).
+See [src/db/DATABASE_SETUP.md](src/db/DATABASE_SETUP.md).
 
 ## Database Schema
 
 ### Tables
 
-- **pages**: Stores page metadata (id, title, file_location)
+- **pages**: Stores page metadata (id, title, file_location, notion_id)
+  - `notion_id`: UUID of the corresponding Notion page (NULL if not yet created in Notion)
 - **page_references**: Stores bidirectional relationships (parent_id, child_id)
 
 ### Views
@@ -147,26 +186,6 @@ For detailed database setup instructions, see [src/db/DATABASE_SETUP.md](src/db/
 - **page_children**: Shows pages referenced by each page
 - **page_parents**: Shows pages that reference each page
 - **page_relationships**: Combined view with both children and parents
-
-### Example Queries
-
-```sql
--- Get all pages referenced by a specific page
-SELECT * FROM page_children WHERE page_id = 'zGfjkW1ociSmSUCLcpbhKjf';
-
--- Get all pages that reference a specific page
-SELECT * FROM page_parents WHERE page_id = 'zGfjkW1ociSmSUCLcpbhKjf';
-
--- Find pages with most references
-SELECT 
-    page_id,
-    page_title,
-    array_length(children_ids, 1) AS num_children,
-    array_length(parent_ids, 1) AS num_parents
-FROM page_relationships
-ORDER BY num_children DESC
-LIMIT 10;
-```
 
 ## Configuration
 
@@ -197,13 +216,6 @@ python src/db/insert_to_database.py \
     --host localhost \
     --port 5432 \
     --json-file src/ref/page_references.json
-```
-
-Or set `PGPASSWORD` environment variable:
-
-```bash
-export PGPASSWORD=your_password
-python src/db/insert_to_database.py
 ```
 
 ## Utilities
@@ -239,16 +251,44 @@ The `src/util/note_utils.py` module provides shared utilities:
    python src/db/insert_to_database.py
    ```
 
-5. **Query the database**:
-   ```bash
-   psql -U postgres -d evergreen_notes
+5. **Upload to Notion** (optional):
+   ```python
+   filtered_notes = load_filtered_notes("src/filter/filtered_notes.json")
+   conn = get_db_connection()
+   asyncio.run(create_all_notion_pages_and_update_db(filtered_notes, conn))
+   conn.close()
+   
+   # Then upload content
+   asyncio.run(upload_all_webpage_to_notion())
+   
+   # For incremental updates:
+   # asyncio.run(upload_new_webpage_to_notion("page_id"))
    ```
 
-## Dependencies
+## Notion Integration Details
 
-- `requests`: HTTP library for web crawling
-- `beautifulsoup4`: HTML parsing
-- `psycopg2-binary`: PostgreSQL database adapter
+### Database Consistency
+
+The Notion integration maintains consistency with the PostgreSQL database:
+
+- **Pages Table**: The `notion_id` column stores the Notion page UUID for each page
+- **Page References**: The `page_references` table is used to:
+  - Populate the "📖 Related" property in Notion pages
+  - Determine which href links should be converted to MentionPage references
+- **Bidirectional Updates**: When uploading a new page:
+  - The new page's "📖 Related" property includes both child and parent pages
+  - Parent pages are automatically updated to replace href links with MentionPage references
+
+### Link Conversion
+
+The integration automatically converts links:
+- **Href Links** → **MentionPage References**: Links to `notes.andymatuschak.org` are converted to Notion page mentions if the target page exists in Notion (has a `notion_id` in the database)
+- **Unconverted Links**: Links to pages not yet in Notion remain as href links
+
+### Workflow Modes
+
+1. **First-Time Setup**: Use `create_all_notion_pages_and_update_db()` followed by `upload_all_webpage_to_notion()` to create all pages at once
+2. **Incremental Updates**: Use `upload_new_webpage_to_notion(page_id)` to add individual new pages while maintaining all relationships
 
 ## Notes
 
@@ -256,12 +296,5 @@ The `src/util/note_utils.py` module provides shared utilities:
 - All scripts can be run from the project root
 - File paths are resolved relative to the project root
 - Checkpoint files allow resuming interrupted operations
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
+- Notion pages must be created in the database before uploading content
 

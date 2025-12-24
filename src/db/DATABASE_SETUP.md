@@ -74,13 +74,6 @@ python src/db/insert_to_database.py \
     --port 5432
 ```
 
-### Using environment variable for password:
-
-```bash
-export PGPASSWORD=your_password
-python insert_to_database.py
-```
-
 ## Database Schema
 
 ### Tables
