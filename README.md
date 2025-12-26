@@ -1,6 +1,6 @@
 # Evergreen Notes Project
 
-A comprehensive toolkit for downloading, analyzing, and managing evergreen notes from web sources. This project provides tools for crawling note websites, extracting relationships between notes, filtering notes based on relevance, and storing the data in a PostgreSQL database for advanced querying.
+A comprehensive toolkit for downloading, analyzing, and managing [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes) from web sources. This project provides tools for crawling note websites, extracting relationships between notes, filtering notes based on relevance, and storing the data in a PostgreSQL database for advanced querying.
 
 ## Overview
 
