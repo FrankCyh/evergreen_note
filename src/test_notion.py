@@ -3,7 +3,7 @@ from uuid import UUID
 
 import pytest
 
-from APIs.notion.notional.blocks import (
+from apis.notion.notional.blocks import (
     Block,
     BulletedListItem,
     Divider,
@@ -11,13 +11,13 @@ from APIs.notion.notional.blocks import (
     Paragraph,
     Quote,
 )
-from APIs.notion.notional.text import TextObject
-from APIs.notion.notional.types import (
+from apis.notion.notional.text import TextObject
+from apis.notion.notional.types import (
     MentionObject,
     Title,
 )
-from APIs.notion.page import Page
-from APIs.notion.session import session
+from apis.notion.page import Page
+from apis.notion.session import session
 
 from src.notion import (
     get_all_block_l_recursively,

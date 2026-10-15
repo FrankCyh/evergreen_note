@@ -13,8 +13,8 @@ from uuid import UUID
 
 from psycopg2.extensions import connection as PgConnection
 
-from APIs.notion.local_page import LocalPage
-from APIs.notion.notional.blocks import (
+from apis.notion.local_page import LocalPage
+from apis.notion.notional.blocks import (
     Block,
     Heading1,
     Heading2,
@@ -23,15 +23,15 @@ from APIs.notion.notional.blocks import (
     TextBlock,
     WithChildrenMixin,
 )
-from APIs.notion.notional.parser import HtmlParser
-from APIs.notion.notional.types import (
+from apis.notion.notional.parser import HtmlParser
+from apis.notion.notional.types import (
     MentionPage,
     Relation,
     UploadFile,
     URL,
 )
-from APIs.notion.page import Page
-from APIs.notion.session import session
+from apis.notion.page import Page
+from apis.notion.session import session
 
 from src.db import (
     get_all_page_id_and_notion_id_from_db,
